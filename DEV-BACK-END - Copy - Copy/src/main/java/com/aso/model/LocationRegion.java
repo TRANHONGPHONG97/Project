@@ -1,0 +1,74 @@
+package com.aso.model;
+
+
+import com.aso.model.dto.LocationRegionDTO;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.experimental.Accessors;
+
+import javax.persistence.*;
+
+@Entity
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+@Table(name = "location_region")
+@Accessors(chain = true)
+public class LocationRegion {
+    @Id
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "province_id")
+    private String provinceId;
+
+    @Column(name = "province_name")
+    private String provinceName;
+
+    @Column(name = "district_id")
+    private String districtId;
+
+    @Column(name = "district_name")
+    private String districtName;
+
+    @Column(name = "ward_id")
+    private String wardId;
+
+    @Column(name = "ward_name")
+    private String wardName;
+
+    private String address;
+
+    @OneToOne(mappedBy = "locationRegion")
+    private Account account;
+
+    @OneToOne(mappedBy = "locationRegion")
+    private Order order;
+
+    public LocationRegion(Long id, String provinceId, String provinceName, String districtId, String districtName, String wardId, String wardName, String address) {
+        this.id = id;
+        this.provinceId = provinceId;
+        this.provinceName = provinceName;
+        this.districtId = districtId;
+        this.districtName = districtName;
+        this.wardId = wardId;
+        this.wardName = wardName;
+        this.address = address;
+
+    }
+
+    public LocationRegionDTO toLocationRegionDTO() {
+        return new LocationRegionDTO()
+                .setId(id)
+                .setProvinceId(provinceId)
+                .setProvinceName(provinceName)
+                .setDistrictId(districtId)
+                .setDistrictName(districtName)
+                .setWardId(wardId)
+                .setWardName(wardName)
+                .setAddress(address);
+    }
+}

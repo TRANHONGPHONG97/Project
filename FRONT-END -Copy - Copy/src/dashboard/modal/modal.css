@@ -1,0 +1,27 @@
+.select-bg-ori{
+    background-origin: border-box;
+}
+.btn-cl{
+    width: none;
+}
+.btn-secondary{
+    width: none !important;
+}
+.slick-dots {
+    /* display: flex !important; */
+}
+.slick-arrow {
+    background-color: #333 !important;
+}
+.img-fluid {
+    width: 300px !important;
+    height: 250px !important;
+}
+.slick-list {
+    height: 400px !important;
+}
+.slick-dots>li {
+    padding: 0 20px !important;
+    /* display: flex !important; */
+    
+}

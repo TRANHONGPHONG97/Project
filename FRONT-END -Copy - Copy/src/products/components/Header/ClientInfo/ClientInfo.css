@@ -1,0 +1,84 @@
+.clientInfoGroup {
+    position: relative;
+}
+
+.clientInfoGroup:hover,
+.adminNoteGroup:hover {
+    cursor: pointer;
+}
+
+.clientInfoGroup:hover .clientInfo-dropdown {
+    display: block;
+    margin-right: 70rem;
+}
+
+.clientInfo-dropdown {
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 10rem;
+    display: none;
+    z-index: 999;
+}
+
+.clientInfo-dropdown li {
+    list-style-type: none;
+    margin-top: 1.5rem;
+}
+
+.clientInfo-dropdown li a {
+    color: black;
+    text-decoration: none;
+}
+
+.clientInfo-dropdown li:hover a {
+    color: var(--icon-collor--);
+    margin-right: 30px;
+}
+
+.clientInfo-dropdown button {
+    border: none;
+    background-color: transparent;
+}
+
+.adminAvatar {
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.adminNoteGroup {
+    position: relative;
+}
+
+.adminNoteGroup:hover .noteGroup {
+    display: block;
+}
+
+.noteGroup {
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: none;
+    width: 20rem;
+    margin-left: 20rem;
+    background-color: #fff;
+    z-index: 999;
+}
+.noteGroup li {
+    list-style: number;
+    margin-top: 1rem;
+}
+.sp-clientInfo:hover {
+    color: rgb(225, 75, 30);
+}
+.btn-clientInfo:hover {
+    color: rgb(166, 50, 42);
+}
+.slick-active {
+    padding: 0 20px !important;
+    display: auto !important;
+}
+.btn-clientInfo {
+    margin-left: 15px;
+}

@@ -1,0 +1,29 @@
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: '30px';
+}
+.on {
+    color: yellow;
+}
+.off {
+    color: #ccc;
+}
+.new-terms-title {
+    margin-left: 50px;
+}
+.item-lot-overview {
+    display: flex;
+}
+.css-iljtu2-MuiRating-root label {
+    margin: 0px;
+}
+.css-iljtu2-MuiRating-root span {
+    font-size: 35px;
+    color: yellow;
+}
+.customStart span {
+    font-size: 35px;
+}

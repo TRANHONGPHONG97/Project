@@ -1,0 +1,53 @@
+.notif-InfoGroup {
+    position: relative;
+}
+
+.notif-InfoGroup:hover{
+    cursor: pointer;
+}
+
+.notif-InfoGroup:hover .norif-Info-dropdown {
+    opacity: 1;
+}
+
+.norif-Info-dropdown {
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 10rem;
+    opacity: 0;
+    z-index: 1203;
+    transition: 0.3s all ease-in-out;
+}
+
+.norif-Info-dropdown li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    height: 50px;
+    transition: 0.3s all ease-in-out;
+}
+.norif-Info-dropdown li:hover {
+    background-color: rgb(200, 200, 200);
+    border-radius: 10px;
+}
+
+.norif-Info-dropdown li a, .norif-Info-dropdown li .notifi-dot {
+    text-decoration: none;
+    transition: 0.3s all ease-in-out;
+}
+
+.norif-Info-dropdown li:hover a, .norif-Info-dropdown li:hover .notifi-dot{
+    margin-left: 10px;
+}
+
+.norif-Info-dropdown li:hover .notifi-dot{
+    margin-left: 5px;
+}
+
+.norif-Info-dropdown button {
+    border: none;
+    background-color: transparent;
+}

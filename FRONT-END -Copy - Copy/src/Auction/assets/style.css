@@ -1,0 +1,45 @@
+.watch-button {
+    border: none;
+}
+.iconDollar {
+    padding-bottom: 10px !important;
+    line-height: 10px !important;
+}
+.Slick-img {
+    width: 100px;
+    height: 100px;
+}
+/* .slick-dots {
+    width: 300px !important;
+    display: flex !important;
+    justify-content: space-around !important;
+} */
+.slick-dots>li {
+    padding: 0 70px;
+    top: 50px !important;
+}
+.auctionImg {
+    width: 100% !important;
+    height: 310px !important;
+}
+.slick-slider {
+    width: 100% !important;
+    max-height: 70% !important;
+}
+.slick-list {
+    width: 100% !important;
+    height: 310px !important;
+}
+.slick-a{
+    margin-top: 50px !important;
+}
+.Add-to-Watchlis {
+    padding: 10px 0 !important;
+}
+.Slick-img{
+    width: 20px !important;
+}
+
+#productAuction{
+    margin-top: 160px;
+}

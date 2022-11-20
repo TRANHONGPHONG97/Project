@@ -1,0 +1,119 @@
+/* Google Social Fonts and */
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+/* END Google Social */
+.main-header-div {
+    align-content: space-around;
+}
+
+.paragraph-logo {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+}
+
+.elegant {
+    color: #173b79;
+    letter-spacing: .3em;
+    text-shadow:
+        1px -1px 0 #bcbbba,
+        -1px 2px 1px #c1bfbf,
+        -2px 4px 1px #c6c4c4,
+        -3px 6px 1px #cbc9c8,
+        -4px 8px 1px #cfcdcd,
+        -5px 10px 1px #d4d2d1,
+        -6px 12px 1px #d8d6d5,
+        -7px 14px 1px #dbdad9,
+        -8px 16px 1px #dfdddc,
+        -9px 18px 1px #e2e0df,
+        -10px 20px 1px #e4e3e2;
+        /* -11px 22px 1px #999897,
+        -12px 24px 1px #9e9c9c,
+        -13px 26px 1px #a3a1a1,
+        -14px 28px 1px #a8a6a6,
+        -15px 30px 1px #adabab,
+        -16px 32px 1px #b2b1b0,
+        -17px 34px 1px #b7b6b5,
+        -18px 36px 1px #bcbbba,
+        -19px 38px 1px #c1bfbf,
+        -20px 40px 1px #c6c4c4,
+        -21px 42px 1px #cbc9c8,
+        -22px 44px 1px #cfcdcd,
+        -23px 46px 1px #d4d2d1,
+        -24px 48px 1px #d8d6d5,
+        -25px 50px 1px #dbdad9,
+        -26px 52px 1px #dfdddc,
+        -27px 54px 1px #e2e0df,
+        -28px 56px 1px #e4e3e2; */
+}
+
+/* .paragraph-logo {
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(0, 43, 113);
+    background-image: linear-gradient(45deg, rgb(0, 43, 113), rgb(115, 169, 255));
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -700px 0;
+    animation: backcolor 5000ms linear infinite alternate; */
+/* color: #367289;
+    /* background-image: linear-gradient(
+        to right,
+        #ffffff 20%,
+        #cacaca 40%,
+        #5bafcf 50%,
+        #5bafcf 55%,
+        #cacaca 80%,
+        #ffffff 100%
+    ); */
+/* font-size: 160%;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif !important; */
+/* }
+
+@keyframes backcolor {
+    100% {
+        background-position: 0 0;
+    }
+} */
+
+.login-button-container {
+    width: auto;
+}
+
+.product-client a {
+    text-decoration: none !important;
+}
+
+.ic-cart,
+.ic-notif {
+    cursor: pointer;
+}
+
+.ic-cart:hover {
+    color: #ff523d;
+    animation: WiggleAnimation 1000ms cubic-bezier(1, 0.01, 0.28, 1) forwards;
+}
+
+.main-login-div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.new-login-button {
+    width: 130px !important;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+}
